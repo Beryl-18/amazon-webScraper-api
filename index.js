@@ -10,6 +10,7 @@ const baseUrl = 'http://api.scraperapi.com?api_key='+apiKey+'&autoparse=true';
 
 
 app.use(express.json());
+//making a change to allow commit
 
 app.get('/', (req,res)=>{
     res.send("<h1>Welcome to Amazon web scraper API</h1>");
